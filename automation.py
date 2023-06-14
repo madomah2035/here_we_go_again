@@ -9,4 +9,4 @@ print("Length: ", yt.length)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download()   # the argument of this is the location where you want your download to be
+yd.download('/Users/sayetech/Desktop/py')   # the argument of this is the location where you want your download to be
