@@ -10,3 +10,4 @@ def increase_age():
 
 print(increase_age())
 print(age)
+
