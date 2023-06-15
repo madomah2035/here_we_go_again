@@ -9,6 +9,5 @@ print("Length: ", yt.length)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download('/Users/sayetech/Desktop/py')  # the argument of this is the location where you want your
+yd.download('/Users/sayetech/Desktop/YT_videos')   # the argument of this is the location where you want your
 # download to be
-# oops! my code ain't working now
