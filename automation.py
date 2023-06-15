@@ -6,6 +6,7 @@ yt = YouTube(link)
 print("Title: ", yt.title)
 print("Views: ", yt.views)
 print("Length: ", yt.length)
+print("captions: ", yt.captions)
 
 yd = yt.streams.get_highest_resolution()
 
