@@ -1,10 +1,10 @@
 import random
-from data import vs, database
+from data import vs, database, logo
 
 
-# insert the higher or lower logo
-
-# choose a random character to compare with another from the same list
+# TODO: 1. insert the higher or lower logo
+print(logo)
+# TODO: 2. choose a random character to compare with another from the same list
 
 
 def format_data(choice):
@@ -20,7 +20,7 @@ def format_data(choice):
         return f"{name}, a {description} from {country}."
 
 
-# the game itself
+# TODO: 3. the game itself
 score = 0
 
 not_end_of_game = True
