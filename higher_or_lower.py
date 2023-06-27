@@ -1,12 +1,11 @@
 import random
 from data import vs, database, logo
 
-
 # TODO: 1. insert the higher or lower logo
 print(logo)
+
+
 # TODO: 2. choose a random character to compare with another from the same list
-
-
 def format_data(choice):
     """It takes the details of the data chosen at random and returns it presentable to the user"""
     name = choice["name"]
