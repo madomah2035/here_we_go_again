@@ -39,7 +39,7 @@ while not_end_of_game:
     print(f"Against B: {format_data(second_choice)}")
 
 
-    def get_user_choice(user):
+    def compare(user):
         global not_end_of_game
         global score
         if user == "A":
@@ -62,4 +62,4 @@ while not_end_of_game:
 
     user_choice = input("Who do you think has more followers? A or B: ").lower()
 
-    get_user_choice(user=user_choice)
+    compare(user=user_choice)

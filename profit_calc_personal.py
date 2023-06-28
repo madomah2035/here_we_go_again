@@ -1,6 +1,6 @@
 def profit(num_of_days, initial_capital):
     overall_profit = initial_capital
-    daily_interest = 2 / 100
+    daily_interest = 2.2 / 100
     for num in range(num_of_days):
         investing_capital = initial_capital - 0.062499
         daily_gain = investing_capital * daily_interest
@@ -17,3 +17,4 @@ while end_of_calc:
     go_again = input("calculate again? (Y/N): ").lower()
     if go_again != "y":
         end_of_calc = False
+        
