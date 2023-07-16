@@ -1,8 +1,10 @@
 bidding_info = {}
 
+result = ''
+
 
 def declare_highest_bidder(bidding_log):
-    # global result
+    global result
     highest_bid = 0
     for new_bidder in bidding_log:
         bid = bidding_log[new_bidder]
@@ -19,7 +21,9 @@ while not_end_of_bid:
     bidding_info[name] = bid_amt
     anymore_bidders = input("Are there any more bidders? yes or no: ").lower()
 
-    if anymore_bidders == 'no':
+    if anymore_bidders == 'yes':
+        continue
+    elif anymore_bidders == 'no':
         not_end_of_bid = False
         declare_highest_bidder(bidding_info)
     else:
